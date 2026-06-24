@@ -152,6 +152,7 @@ body {
   margin-top: 5rem;
 
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 
@@ -190,7 +191,6 @@ body {
 
 .card5 {
   height:20rem;
-  transform: rotate(8deg);
   margin-left: -5rem;
   margin-bottom: -5rem;
   z-index: 1;
@@ -269,12 +269,7 @@ body {
 
   -webkit-text-stroke: 0.75rem black;
   paint-order: stroke fill;
-  
-  text-shadow:
-    1px 0 #000,
-   -1px 0 #000,
-    0 1px #000,
-    0 -1px #000;
+
   line-height: 1;
 
   text-align: center;
@@ -293,22 +288,22 @@ body {
   flex-direction: column;
   align-items: center;
 
-  padding-top: 30px;
-  margin-top:-75px;
+  padding-top: 5rem;
+  margin-top:-5rem;
 }
 
 .footerTitle {
   font-family: "Covered By Your Grace";
 
-  font-size: 8rem;
+  font-size: 7rem;
+  font-weight: 100;
 
   color: white;
 
-  text-shadow:
-    2px 0 #000,
-   -2px 0 #000,
-    0 2px #000,
-    0 -2px #000;
+  -webkit-text-stroke: 1rem black;
+  paint-order: stroke fill;
+
+  margin-bottom: -1rem;
 }
 
 .creditText {

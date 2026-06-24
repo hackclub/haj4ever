@@ -160,8 +160,8 @@ export default function App() {
         </div>
 
         <div className="bonusText">
-          Code 4 more hours to get a special prize (smolhaj? idk),
-          OR work only 6 hours to get the prize without blahaj
+          Code 4 hours for smolhaj OR 6 hours for blahaj
+          OR 10 hours for both! if you do above 10 you'll get a cool secret prize
         </div>
       </section>
 
