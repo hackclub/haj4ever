@@ -3,40 +3,192 @@ import "./App.css";
 export default function App() {
   return (
     <div className="app">
-      <img src="/flag.png" alt="" className="flag" />
+      <section className="section section1">
+        <img
+          src="/hack club flag.svg"
+          alt="Hack Club Flag"
+          className="flag"
+        />
 
-      <main className="hero">
-        <div className="title-wrap">
-          <div className="new-drop">{`{NEW DROP!!!}`}</div>
+        <h1 className="mainTitle">HACK CLUB HAJ4EVER</h1>
 
-          <h1 className="site-name">
-            HACK CLUB HAJ4EVER
-          </h1>
+        <div className="topInfo">
+          <img
+            src="/me when u:.svg"
+            alt="me when u"
+            className="meWhenU"
+          />
+
+          <div className="heroContent">
+            <p className="introText">
+              ship anything shark/ocean related for 8 hours
+              <br />
+              get a blahaj shipped to you!!
+            </p>
+
+            <div className="submitRow">
+              <a
+                href="https://haj4ever.fillout.com/submit"
+                target="_blank"
+                rel="noreferrer"
+                className="submitButton"
+              >
+                <img src="/submit.svg" alt="Submit" />
+              </a>
+
+              <div className="questionBlock">
+                <p className="questionText">
+                  Questions? Join{" "}
+                  <a
+                    href="https://hackclub.enterprise.slack.com/archives/C0ATRK4G5NY"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hajTag"
+                  >
+                    #haj4ever
+                  </a>
+                </p>
+
+                <img
+                  src="/shark dance.gif"
+                  alt="dancing shark"
+                  className="danceShark"
+                />
+              </div>
+            </div>
+          </div>
         </div>
 
-        <p className="tagline">
-          ship anything shark/ocean related get a blahaj/smolhaj!
-        </p>
+        <div className="cardsRow">
+          <img
+            src="/blahaj table.svg"
+            alt=""
+            className="card card1"
+          />
 
-        <a
-          className="btn-submit"
-          href="https://haj4ever.fillout.com/submit"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="/submit.png" alt="submit" />
-        </a>
+          <img
+            src="/a wild blahaj.svg"
+            alt=""
+            className="card card2"
+          />
 
-        <section className="cards">
-          <div className="card card-blahaj">
-            <img src="/blahaj.png" alt="blahaj" />
+          <img
+            src="/guys i think i like sharks.svg"
+            alt=""
+            className="card card3"
+          />
+
+          <img
+            src="/my honest reaction to this ysws.svg"
+            alt=""
+            className="card card4"
+          />
+
+          <img
+            src="/blahaj underwater.svg"
+            alt=""
+            className="card card5"
+          />
+        </div>
+      </section>
+
+      <section className="section section2">
+        <div className="stepsContainer">
+          <div className="step">
+            <img
+              src="/blahaj spinning.gif"
+              alt=""
+              className="spinShark shark1"
+            />
+
+            <p>
+              1. Make a Shark/
+              <br />
+              Ocean themed
+              <br />
+              project for 8
+              <br />
+              hours.
+            </p>
           </div>
 
-          <div className="card card-meme">
-            <img src="/meme.png" alt="meme" />
+          <div className="step">
+            <img
+              src="/blahaj spinning.gif"
+              alt=""
+              className="spinShark shark2"
+            />
+
+            <p>
+              2. Hackatime track
+              <br />
+              the hours
+            </p>
           </div>
-        </section>
-      </main>
+
+          <div className="step">
+            <img
+              src="/blahaj spinning.gif"
+              alt=""
+              className="spinShark shark3"
+            />
+
+            <p>
+              3. Submit the
+              <br />
+              hours to
+              <br />
+              Haj4ever
+            </p>
+          </div>
+
+          <div className="step">
+            <img
+              src="/blahaj spinning.gif"
+              alt=""
+              className="spinShark shark4"
+            />
+
+            <p>
+              4. Get a blahaj
+              <br />
+              shipped to your
+              <br />
+              house!!
+            </p>
+          </div>
+        </div>
+
+        <div className="bonusText">
+          Code 4 more hours to get a special prize (smolhaj? idk),
+          OR work only 6 hours to get the prize without blahaj
+        </div>
+      </section>
+
+      <section className="section section3">
+        <h2 className="footerTitle">HAJ4EVER</h2>
+
+        <div className="creditText">
+          made with &lt;3 by Rupnil &amp; Flux3tor
+        </div>
+
+        <div className="footerImages">
+          <img
+            src="/blahaj with headphones.svg"
+            alt=""
+          />
+
+          <img
+            src="/blahaj cardboard.svg"
+            alt=""
+          />
+
+          <img
+            src="/blahaj sweater.svg"
+            alt=""
+          />
+        </div>
+      </section>
     </div>
   );
 }
