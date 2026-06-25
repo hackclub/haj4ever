@@ -366,6 +366,9 @@ body {
 .footerImages img:nth-child(2) {
   margin-top: -2rem;
   width: 350px;
+  height: auto;
+  aspect-ratio: 1136 / 747;
+  object-fit: contain;
 }
 
 .footerImages img:nth-child(3) {
