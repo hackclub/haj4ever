@@ -23,7 +23,7 @@ export default function App() {
             <p className="introText">
               Code for 6, 8, 10 or more hours-
               <br />
-              get blahaj/smolhaj/both! shipped to you!
+              get smolhaj/blahaj/both! shipped to you!
             </p>
 
             <div className="submitRow">
