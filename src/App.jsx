@@ -4,11 +4,17 @@ export default function App() {
   return (
     <div className="app">
       <section className="section section1">
-        <img
-          src="https://cdn.hackclub.com/019efadb-bc72-7214-b372-7fd576af7b97/hack_club_flag.svg"
-          alt="Hack Club Flag"
-          className="flag pop"
-        />
+        <a
+            href="https://hackclub.com/"
+            target="_blank"
+            rel="noreferrer"
+        >
+          <img
+              src="https://cdn.hackclub.com/019efadb-bc72-7214-b372-7fd576af7b97/hack_club_flag.svg"
+              alt="Hack Club Flag"
+              className="flag pop"
+          />
+        </a>
 
         <h1 className="mainTitle popSmall">HACK CLUB HAJ4EVER</h1>
 
