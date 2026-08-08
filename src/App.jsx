@@ -1,8 +1,10 @@
 import "./App.css";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 export default function App() {
   return (
     <div className="app">
+      <SpeedInsights />
       <section className="section section1">
         <a
             href="https://hackclub.com/"
