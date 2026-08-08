@@ -29,12 +29,12 @@ export default function App() {
             <p className="introText popTurn">
               Code for 4, 6, 10 or more hours-
               <br />
-              get smolhaj/blahaj/both! shipped to you!
+              get smolhaj/blahaj/both shipped to you!
             </p>
 
             <div className="submitRow">
               <a
-                href="https://hack.club/haj4ever-submission"
+                href="https://forms.hackclub.com/haj4ever-submission"
                 target="_blank"
                 rel="noreferrer"
                 className="submitButton"
@@ -112,7 +112,7 @@ export default function App() {
               <br />
               project for 4, 6,
               <br />
-              10 or more hours.
+              10 or more hours!!
             </p>
           </div>
 
@@ -126,7 +126,7 @@ export default function App() {
             <p className="popTurn">
               2. Hackatime track
               <br />
-              the hours
+              the hours!!
             </p>
           </div>
 
@@ -142,7 +142,7 @@ export default function App() {
               <br />
               hours to
               <br />
-              Haj4ever
+              Haj4ever!!
             </p>
           </div>
 
@@ -165,7 +165,7 @@ export default function App() {
 
         <div className="bonusText popSmall">
           Code 4 hours for smolhaj OR 6 hours for blahaj
-          OR 10 hours for both! if you do above 10 you'll get a cool secret prize
+          OR 10 hours for both! if you do above 10 hours you'll get a cool secret prize along with both of those!
         </div>
       </section>
 
@@ -173,7 +173,7 @@ export default function App() {
         <h2 className="footerTitle popSmall">HAJ4EVER</h2>
 
         <div className="creditText popTurn">
-          made with &lt;3 by Rupnil &amp; Flux3tor
+          made with &lt;3 by <a href="https://flux3tor.xyz" target="_blank" rel="noreferrer">Flux3tor</a> &amp; <a href="https://hackclub.enterprise.slack.com/team/U0A4UTULSLE" target="_blank" rel="noreferrer">Rupnil</a>
         </div>
 
         <div className="footerImages">
@@ -196,7 +196,7 @@ export default function App() {
           />
         </div>
         <div className="creditText popTurn">
-          made possible by Jenin &amp; Dhamari
+          Sponsored by <a href="https://hackclub.enterprise.slack.com/team/U07UK4S94KC" target="_blank" rel="noreferrer">Aarav</a> &amp; <a href="https://hackclub.enterprise.slack.com/team/U05EZRFKRV4" target="_blank" rel="noreferrer">Nathan</a> &#33;
         </div>
       </section>
     </div>

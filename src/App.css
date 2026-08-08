@@ -405,3 +405,20 @@ body {
     align-items: center;
   }
 }
+
+.creditText a,
+.creditText a:visited,
+.creditText a:active {
+  color: #2474b5;
+  text-decoration: none;
+
+  transition: 0.15s ease;
+
+  -webkit-text-stroke: inherit;
+  paint-order: inherit;
+}
+
+.creditText a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
