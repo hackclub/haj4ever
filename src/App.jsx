@@ -1,4 +1,5 @@
 import "./App.css";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   return (
@@ -199,6 +200,7 @@ export default function App() {
           Sponsored by <a href="https://hackclub.enterprise.slack.com/team/U07UK4S94KC" target="_blank" rel="noreferrer">Aarav</a> &amp; <a href="https://hackclub.enterprise.slack.com/team/U05EZRFKRV4" target="_blank" rel="noreferrer">Nathan</a> &#33;
         </div>
       </section>
+      <Analytics />
     </div>
   );
 }
