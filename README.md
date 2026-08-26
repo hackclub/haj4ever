@@ -8,8 +8,8 @@ Haj4ever is a Hack Club YSWS (You Ship, We Ship) run by [@Flux3tor](https://gith
 
 1. **Build anything.** Make a project. It can be an app, game, website, hardware project, artwork, or anything else you create.
 2. **Track your hours.** Use Hackatime to log your coding time. Complete:
-   * **4 hours** = Smolhaj
-   * **6 hours** = Blåhaj
+   * **3 hours** = Smolhaj
+   * **5 hours** = Blåhaj
    * **10+ hours** = Both Smolhaj + Blåhaj + Cool secret prize
 3. **Submit your project.** Send us your project and Hackatime link through the submission form. Once it's reviewed and approved, we'll ship your prize.
 
