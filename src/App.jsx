@@ -29,7 +29,7 @@ export default function App() {
 
           <div className="heroContent">
             <p className="introText popTurn">
-              Code for 4, 6, 10 or more hours-
+              Code for 3, 5, 10 or more hours-
               <br />
               get smolhaj/blahaj/both shipped to you!
             </p>
@@ -112,7 +112,7 @@ export default function App() {
             <p className="popTurn">
               1. Make any
               <br />
-              project for 4, 6,
+              project for 3, 5,
               <br />
               10 or more hours!!
             </p>
@@ -166,8 +166,8 @@ export default function App() {
         </div>
 
         <div className="bonusText popSmall">
-          Code 4 hours for smolhaj OR 6 hours for blahaj
-          OR 10 hours for both! if you do above 10 hours you'll get a cool secret prize along with both of those!
+          Code 3 hours for smolhaj OR 5 hours for blahaj
+          OR 10 hours for both and something special! if you do above 10 hours you'll also get a cool secret prize!
         </div>
       </section>
 
